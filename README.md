@@ -2,7 +2,7 @@
 
 Meta repo for the NCZarr eval project.
 
-## Models
+## Models and use cases
 
 ### SWM
 
@@ -14,4 +14,8 @@ An implementation of the [shallow-water equations](https://en.wikipedia.org/wiki
 
 ### FESOM
 
-TBD.
+The Finite-volumE Sea ice–Ocean Model (FESOM2).
+
+- docs: https://fesom2.readthedocs.io/
+- code: https://github.com/FESOM/fesom2
+- build / runtime env: https://github.com/FESOM/FESOM2_Docker/tree/master/fesom2_test (images used in CI)
