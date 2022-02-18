@@ -19,3 +19,8 @@ The Finite-volumE Sea ice–Ocean Model (FESOM2).
 - docs: https://fesom2.readthedocs.io/
 - code: https://github.com/FESOM/fesom2
 - build / runtime env: https://github.com/FESOM/FESOM2_Docker/tree/master/fesom2_test (images used in CI)
+
+## Misc pointers
+
+- Even though the current release of netcdf-fortran does not support NCZarr directly, there is a way of building the Fortran lib against the netCDF-C with NCZarr enabled: https://github.com/Unidata/netcdf-fortran/issues/209
+- ...
